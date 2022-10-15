@@ -1,0 +1,96 @@
+<!--section 2-->
+      <!-- Experience-->
+      <section class="resume-section" id="experience">
+        <!-- Button trigger modal --> 
+        <div class="conteExperiencia container-fluid rounded shadow-sm p-3 mb-5">
+          <div class="resume-section-content">
+            <h2 class="mb-5">Experiencia</h2>
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#experienciaModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class="flex-grow-1">
+                <h3 class="mb-0">Senior Web Developer</h3>
+                <p>Argentina Programa.</p>
+                <p>Development of programs generated on the platform of Argentina Programa.</p>
+                <hr>
+                <p>Desarrollo de programas qenerados en la plataforma de Argentina Programa.</p>
+              </div>
+              <img src="assets/img/PREPARANDO MI PORFOLIO.jpg" width="350">
+              <div class="flex-shrink-0"><span class="text-secundary">November 2021 - Present</span></div>
+              </div>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0">Licenciado en Higiene y Seguridad en el Trabajo</h3>
+                  <div class="subheading mb-3">Universidad Tecnológica Nacional</div>
+                  <p>Podcasting de gestión de cambios operativos dentro de los flujos de trabajo para establecer un marco de seguridad en el ambito laboral. Desconectar los indicadores que provocan el peligro de accidentes.</p>
+                  <img src="assets/img/LICENCIADO.png"width="350" px>
+                  <hr>
+                  <p>Operational change management podcasting within workflows to establish a framework for safety at work. Disconnect the indicators that cause the danger of accidents.</p>
+                  </div>
+                  <div class="flex-shrink-0"><span class="text-secundary">December 2015 - Present</span></div>
+                  </div>
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                      <h3 class="mb-0">Desarrollador FullStack Pasante de diseño web </h3>
+                      <p>Argentina Programa.</p>
+                      <p>Estudiante avanzado en los diferentes lenguajes de programación</p>
+                      </div>
+                      <div class="flex-shrink-0"><span class="text-secundary">November 2021 - Present</span></div>
+                      </div>
+                      </div>
+                      <a class="btn btn-primary" href="/index.html" role="button">Volver</a>
+                      </div>
+       </section>
+
+                     
+                      
+        <!-- Modal Experiencia -->
+<div class="modal fade" id="experienciaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Experiencia</h5>
+        
+      </div>
+      <div class="modal-body">
+          <form name="experienciaForm"> 
+              <!-- formulario de experiencia-->
+              <div class="mb-3">
+                <!-- <label for="experienciaId" class="form-label">Seleccionar Experiencia</label> -->
+                <select class="form-select" id="experienciaId">
+                  <option selected>Seleccionar Experiencia</option>
+                  <option value="1">ID1</option>
+                  <option value="2">ID2</option>
+                  <option value="3">ID3</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="experienciaUrl" class="form-label">Modificar Url de Empresa</label>
+                <input class="form-control" type="url" id="experienciaUrl">
+              </div>
+              <div class="mb-3">
+                <label for="experienciaImg" class="form-label">Modificar Logo de Empresa</label>
+                <input class="form-control" type="file" id="experienciaImg">
+              </div>
+              <div class="mb-3">
+                <label for="experienciaCargo" class="form-label">Modificar Cargo</label>
+                <input type="text" class="form-control" id="experienciaCargo" placeholder="Nombre nuevo">
+              </div>
+              <div class="mb-3">
+                <label for="experienciaPeriodoInicio" class="form-label">Modificar Periodo Inicio</label>
+                <input type="date" class="form-control" id="experienciaPeriodoInicio">
+              </div>
+              <div class="mb-3">
+                <label for="experienciaPeriodoFin" class="form-label">Modificar Periodo Fin</label>
+                <input type="date" class="form-control" id="experienciaPeriodoFin">
+              </div>
+              <div class="mb-3">
+                  <label for="experienciaInfo" class="form-label">Modificar Información de Cargo</label>
+                  <textarea class="form-control" id="experienciaInfo" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Guardar</button>
+          </form>
+      </div>
+
+      <!-- FIN DE EXPERIENCIA-->
+

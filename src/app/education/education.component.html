@@ -1,0 +1,112 @@
+<!--section 3-->
+      <!-- Education-->
+      <section class="resume-section" id="education">
+        <div class="conteEstudios container-fluid rounded shadow-sm p-3 mb-5">
+           <div class="resume-section-content">
+              <h2 class="mb-5">Educación</h2>
+            <!-- Button trigger modal --> 
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+            <!-- <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+            <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>-->  
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                 <div class="flex-grow-1">
+                    <h3 class="mb-0">Universidad Tecnológica Nacional</h3>
+                    <div class="subheading mb-3">Bachelor Hygiene and industrial security</div>
+                    <div>Hygiene and industrial security - Web Development Track</div>
+                    <div>
+                     <h3>Titulo</h3>
+                     <img src="assets/img/diploma.jpg" width="350">
+                     <div class="flex-shrink-0"><span class="text-secundary">febrery 2013 - december 2015</span></div>
+                    </div>
+                    <div>
+                       <div class="row"></div>
+                       <br>
+                       <h3>Otros Estudios</h3>
+                       <figure>
+                          <img src="assets/img/certificado.jpg" width="350"> 
+                       </figure>
+                       <div class="flex-shrink-0"><span class="text-secundary">febrery 2021 - october 2021</span></div>
+                    </div>
+                 </div>
+                 <br>
+                 <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                       <h3>Otros Estudios</h3>
+                       <br> 
+                       <h3>"Argentina Programa"</h3>
+                       <div class="subheading mb-3">Technology Developer Program</div>
+                       <div class="flex-shrink-0"><span class="text-secundary">noviembre 2021 - Present</span></div>
+                       <img src="assets/img/MINIATURA-ARGEPROGR.jpg" width="350">      
+                       <p>Argentina Programa #YoProgramo 3ra edición</p>
+                       <br>
+                       <h3>Otros Estudios</h3>
+                       <figure>
+                          <img src="assets/img/mi certificado1.png" width="350"> 
+                       </figure>
+                       <h3 class="mb-0">Fundación Educativa Santisima Trinidad </h3>
+                       <p > curso LENGUAJE DE PROGRAMACIÓN PYTHON.</p>
+                       <div class="flex-shrink-0"><span class="text-secundary">febrery 2022 - mayo 2022</span></div>
+                    </div>
+                 </div>
+               </div>
+            </div>
+            <a class="btn btn-primary" href="/index.html" role="button">Volver</a>
+          </div>
+     </section>
+      <!-- FIN DE EDUCACION-->
+<!-- Modal Educación -->
+<div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Editar Educación</h5>
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+       <div class="modal-body">
+           <form name="educacionForm"> 
+               <!-- formulario de educación-->
+               <div class="mb-3">
+               <select class="form-select" id="educacionId">
+                 <option selected>Seleccionar Educación</option>
+                 <option value="1">ID1</option>
+                 <option value="2">ID2</option>
+                 <option value="3">ID3</option>
+               </select>
+             </div>
+             <div class="mb-3">
+               <label for="educacionUrl" class="form-label">Modificar Url de Educación</label>
+               <input class="form-control" type="url" id="educacionUrl">
+             </div>
+               <div class="mb-3">
+                 <label for="educacionImg" class="form-label">Modificar Logo de Instituto</label>
+                 <input class="form-control" type="file" id="educacionImg">
+               </div>
+               <div class="mb-3">
+                 <label for="educacionEstudio" class="form-label">Modificar Estudio</label>
+                 <input type="text" class="form-control" id="educacionEstudio" placeholder="Nombre nuevo">
+               </div>
+               <div class="mb-3">
+                 <label for="educacionPeriodoInicio" class="form-label">Modificar Periodo Inicio</label>
+                 <input type="date" class="form-control" id="educacionPeriodoInicio">
+               </div>
+               <div class="mb-3">
+                 <label for="educacionPeriodoFin" class="form-label">Modificar Periodo Fin</label>
+                 <input type="date" class="form-control" id="educacionPeriodoFin">
+               </div>
+               <div class="mb-3">
+                   <label for="educacionInfo" class="form-label">Modificar Información de Estudio Realizado</label>
+                   <textarea class="form-control" id="educacionInfo" rows="3"></textarea>
+               </div>
+           </form>
+       </div>
+       <div class="modal-footer">
+         <button type="submit" class="btn btnCancel" data-bs-dismiss="modal">Cancelar</button>  
+         <button type="submit" class="btn btnAgree" data-bs-dismiss="modal">Agregar</button>   
+         <button type="submit" class="btn btnMod" data-bs-dismiss="modal">Modificar</button>  
+         <button type="submit" class="btn btnDelete" data-bs-dismiss="modal">Borrar</button>   
+         <button type="submit" class="btn btnLogin" data-bs-dismiss="modal">Guardar</button>  
+       </div>
+     </div>
+   </div>
+ </div>
+

@@ -1,0 +1,36 @@
+/*redes*/    
+/*i.fa-brands.fa-facebook.fa-xl,
+i.fa-brands.fa-instagram.fa-xl,
+i.fa-brands.fa-linkedin.fa-xl,
+i.fa-brands.fa-github.fa-xl,
+i.fa-solid.fa-user.fa-xl{
+    color: #FFFFFF
+}*/
+
+.fa-brands.fa-envelope-o.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:yellowgreen !important
+}
+
+.fa-brands.fa-facebook.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:blue
+}
+
+.fa-brands.fa-linkedin.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:rgba(8, 123, 91, 0.822)
+}
+
+.fa-brands.fa-github.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:gray
+}
+
+.fa-solid.fa-user.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color: #FFFFFF
+}
+.list-group{
+    --bs-list-group-bg: white;
+}

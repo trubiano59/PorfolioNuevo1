@@ -1,0 +1,10 @@
+/*sectión 2*/
+.conteExperiencia{
+    background-color: rgba(23, 145, 145, 0.623);
+}
+button{
+    margin: 13px;
+}
+.btn.btn-secondary{
+    background-color: red;
+}
