@@ -5,7 +5,7 @@ import { ErrorComponent } from './error/error.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
-  {path: '', component:IndexComponent},
+  {path: 'index', component:IndexComponent},
   {path: 'dashboard', component:DashboardComponent},
   {path: '', redirectTo: '/index', pathMatch: 'full'},
   {path:'**', component:ErrorComponent}

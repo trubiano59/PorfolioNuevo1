@@ -13,9 +13,7 @@ import { AwardsComponent } from './awards/awards.component';
 import { WorkComponent } from './work/work.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { AppRoutingModule } from './app-routing.module';
-
 import { IndexComponent } from './index/index.component';
-
 import { MainComponent } from './main/main.component';
 import { AcercademiComponent } from './acercademi/acercademi.component';
 import { ErrorComponent } from './error/error.component';
@@ -23,11 +21,6 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 import { BotonlogoutComponent } from './botonlogout/botonlogout.component';
-
-
-
-
-
 
 
 @NgModule({
@@ -52,8 +45,7 @@ import { BotonlogoutComponent } from './botonlogout/botonlogout.component';
     DashboardComponent,
     NavbardashboardComponent,
     BotonlogoutComponent,
-    
-
+   
   ],
   
   imports: [
