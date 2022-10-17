@@ -30,6 +30,12 @@
     ],
     "axe/forms": "off",
     "no-inline-styles": "off",
-    "highest-available-document-mode": "off"
+    "highest-available-document-mode": "off",
+    "axe/aria": [
+      "default",
+      {
+        "aria-command-name": "off"
+      }
+    ]
   }
 }
