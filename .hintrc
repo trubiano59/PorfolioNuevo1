@@ -24,7 +24,8 @@
       "default",
       {
         "ignore": [
-          "width: fit-content"
+          "width: fit-content",
+          "mask-image"
         ]
       }
     ],
@@ -34,7 +35,15 @@
     "axe/aria": [
       "default",
       {
-        "aria-command-name": "off"
+        "aria-command-name": "off",
+        "aria-progressbar-name": "off",
+        "aria-valid-attr-value": "off"
+      }
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
       }
     ]
   }

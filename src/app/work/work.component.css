@@ -15,3 +15,9 @@
 .btn.btn-secondary{
     background-color: red;
 }
+button.btn.btnAgree{
+    background-color: green;
+}
+button.btn.btnMod{
+    background-color: skyblue;
+}
