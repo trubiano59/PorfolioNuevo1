@@ -1,18 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-.banner{
-    background-image: linear-gradient(
-        rgba(0,0,0,0.4),
-        rgba(0,0,0,0.9)),
-        url(/Assets/img/ALPES\ SUIZOS.png);
-    background-position: center;
-    -msm-background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    min-height: 60vh;
-    margin-top: -10rem;
-}
 
 .navegacion{
     margin-top: -25rem;
@@ -43,41 +29,7 @@ h1.mb-0{
 }
 
 /*Barra de navegacion*/
-.navbar.navbar-expand-lg.bg-primary{
-    background-color: #138bc2 !important; } 
 
-/*i.fa-brands.fa-facebook.fa-xl,
-i.fa-brands.fa-instagram.fa-xl,
-i.fa-brands.fa-linkedin.fa-xl,
-i.fa-brands.fa-github.fa-xl,
-i.fa-solid.fa-user.fa-xl{
-    color: #FFFFFF
-}*/
-
-.fa-brands.fa-envelope-o.fa-xl:hover{
-    --bs-text-opacity: 1;
-    color:yellowgreen !important
-}
-
-.fa-brands.fa-facebook.fa-xl:hover{
-    --bs-text-opacity: 1;
-    color:blue
-}
-
-.fa-brands.fa-linkedin.fa-xl:hover{
-    --bs-text-opacity: 1;
-    color:rgba(8, 123, 91, 0.822)
-}
-
-.fa-brands.fa-github.fa-xl:hover{
-    --bs-text-opacity: 1;
-    color:gray
-}
-
-.fa-solid.fa-user.fa-xl:hover{
-    --bs-text-opacity: 1;
-    color: #FFFFFF
-}
 
 .list-group{
     color:white !important
@@ -88,31 +40,13 @@ h3 {
     background-color: #177fa2;
 }
 
-/*sectión 0*/
-section.about
-{
-    margin-top: -10rem;
-}
+
 
 section.panel{
     margin-top: 8rem;
 }
 
-/*sectión 1*/
-.conteSobreMi{
-    background-color: rgba(59, 68, 198, 0.898); 
-}
 
-
-/*sectión 2*/
-.conteExperiencia{
-    background-color: rgba(23, 145, 145, 0.623);
-}
-
-/*sectión 3*/
-.conteEstudios{
-    background-color: rgba(23, 145, 145, 0.623);
-}
  
 
 h2 {
@@ -123,50 +57,14 @@ h2 {
     margin-top: -5rem;
 }
 
-/*sectión 4*/
-.conteSkills{
-    background-color: rgba(23, 145, 145, 0.623);
-}
+
 
 
 .conteTextoTer{
     background-color:rgba(23, 145, 145, 0.623);
 }
 
-/*section 5*/
-.conteIntereses{
-    background-color: rgba(23, 145, 145, 0.623);
-}
 
-/*section 6*/
-.conteAwards{
-    background-color: rgba(23, 145, 145, 0.623);
-}
-
-/*sectión 7*/
-.conteTrabajo{
-    background-color: rgba(23, 145, 145, 0.623);
-}
-
-/*sectión 8*/
-.conteBancario{
-    background-color:rgba(23, 145, 145, 0.623);
-}
-
-/*sectión 9*/
-.conteDGE{
-    background-color:rgba(23, 145, 145, 0.623);
-}
-
-/*sectión 10*/
-.conteProyectos{
-    background-color: rgba(23, 145, 145, 0.623);
-}
-
-/*sectión 11*/
-.conteEjemploTexto {
-    background-color: aqua;
-}
 
 #textoTer
 {
@@ -181,23 +79,10 @@ h2 {
     box-shadow: 0px 0px 20px rgba(0,0,0.5);
 }   
 
-meter
-{
-    background-color: #000;
-    padding-left: 20px;
-    color:rgb(245, 232, 220);
-    margin-left: 20px;
-    width: 200px;
-
-}
 
 
-.scrollspy-example {
-    position: relative;
-    height: 200px;
-    margin-top: .5rem;
-    overflow: auto;
-  }
+
+
 
  
   body {
@@ -208,46 +93,13 @@ meter
 
 
 
-main, div, a, span {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
-main {
-    height:120px;
-    position:relative;
-    padding-top:30px;
-    background-image: linear-gradient(transparent 50%,rgba(69, 141, 209, 0.292) 50%);
-    background-size: 3em 3em;
-    background-origin: content-box;
-    background-attachment: local;
-}
 
-.button {
-    padding: 10px 45px;
-    border-radius: 3px;
-    white-space: normal;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-    display:block;
-    background:#f90;
-    color:#fff;
-    font-size:18px;
-    font-family: sans-serif;
-    font-weight:bold;
-    text-decoration:none;
-    margin:70px auto;       
-    width:fit-content;
-}
 
-#abajo {
-    width:220px;
-    position:absolute;
-    left:calc(50% - 110px);
-    bottom:50px;
-}
+
+
+
+
 
 
 
