@@ -23,6 +23,7 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
 import { BotonlogoutComponent } from './botonlogout/botonlogout.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +46,7 @@ import { BotonlogoutComponent } from './botonlogout/botonlogout.component';
     DashboardComponent,
     NavbardashboardComponent,
     BotonlogoutComponent,
+    
    
   ],
   
