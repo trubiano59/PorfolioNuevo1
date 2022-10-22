@@ -1,0 +1,32 @@
+/*sectión 4*/
+.conteSkills{
+    background-color: rgba(23, 145, 145, 0.623);
+}
+
+meter
+{
+    background-color: #000;
+    padding-left: 20px;
+    color:rgb(245, 232, 220);
+    margin-left: 20px;
+    width: 200px;
+
+}
+button.btn.btnLogin{
+    background-color: rgb(102, 102, 231);
+}
+.btn.btn-secondary{
+    background-color: red;
+}
+button.btn.btnAgree{
+    background-color: green;
+}
+button.btn.btnMod{
+    background-color: skyblue;
+}
+button.btn.btnDelete{
+    background-color: crimson;
+}
+button.btn.btnCancel{
+    background-color: orange;
+}

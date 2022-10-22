@@ -1,0 +1,20 @@
+.banner{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.9)),
+        url(/Assets/img/ALPES\ SUIZOS.png);
+    background-position: center;
+    -msm-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 60vh;
+    margin-top: -10rem;
+}
+button.btn.btnLogin{
+    background-color: rgb(102, 102, 231);
+}
+.btn.btn-secondary{
+    background-color: red;
+}

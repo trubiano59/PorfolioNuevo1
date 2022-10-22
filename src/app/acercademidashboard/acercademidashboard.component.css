@@ -1,0 +1,13 @@
+/*sectión 1*/
+.conteSobreMi{
+    background-color: rgba(16, 25, 146, 0.898); 
+}
+button.btn.btnLogin{
+    background-color: rgb(102, 102, 231);
+}
+.btn.btn-secondary{
+    background-color: red;
+}
+button.btn.btnDelete{
+    background-color: crimson;
+}

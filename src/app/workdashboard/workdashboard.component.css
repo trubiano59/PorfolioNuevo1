@@ -1,0 +1,23 @@
+/*sectión 7*/
+.conteTrabajo{
+    background-color: rgba(23, 145, 145, 0.623);
+}
+
+/*sectión 8*/
+.conteBancario{
+    background-color:rgba(23, 145, 145, 0.623);
+}
+
+/*sectión 9*/
+.conteDGE{
+    background-color:rgba(23, 145, 145, 0.623);
+}
+.btn.btn-secondary{
+    background-color: red;
+}
+button.btn.btnAgree{
+    background-color: green;
+}
+button.btn.btnMod{
+    background-color: skyblue;
+}
