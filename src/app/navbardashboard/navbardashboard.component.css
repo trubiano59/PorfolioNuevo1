@@ -1,3 +1,7 @@
+/*Barra de navegacion*/
+.navbar.navbar-expand-lg.bg-primary{
+    background-color: #138bc2 !important; } 
+
 button.btn.btnLogin{
     background-color: rgb(102, 102, 231);
 }

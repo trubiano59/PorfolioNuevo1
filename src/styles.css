@@ -91,6 +91,9 @@ h2 {
     background:linear-gradient(#3796d1,#bdced6);
 }
 
+:root{
+    scroll-behavior: smooth ;
+}
 
 
 
