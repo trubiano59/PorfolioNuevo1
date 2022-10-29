@@ -21,3 +21,6 @@ button.btn.btnAgree{
 button.btn.btnMod{
     background-color: skyblue;
 }
+button.btn.btnDelete{
+    background-color: crimson;
+}
