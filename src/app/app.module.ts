@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+
+import { PorfolioService } from './servicios/porfolio.service';
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './modals/login/login.component';
@@ -69,9 +73,10 @@ import { InterestsdashboardComponent } from './interestsdashboard/interestsdashb
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
 
   ],
-  providers: [],
+  providers: [PorfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
