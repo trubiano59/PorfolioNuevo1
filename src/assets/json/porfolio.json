@@ -1,9 +1,12 @@
 {
+    
     "nombre": "Miguel Angel",
     "apellido": "Trubiano",
     "acerca_de_mi": "Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end", 
     "educacion": [
         {
+            "id": 1,
+            "institución": "Universidad Tecnológica Nacional",
             "titulo": "Licenciado en Higiene y Seguridad Laboral",
             "inicio": "2013-02-15",
             "fin": "2015-12-20",
@@ -11,6 +14,8 @@
             "img":"assets/img/diploma.jpg"
         },
         {
+            "id": 2,
+            "institución": "Argentina Programa 1ra Etapa",
             "titulo1": "Argentina Programa",
             "inicio": "2021-02-18",
             "fin": "2021-10-30",
@@ -18,21 +23,25 @@
             "img":"assets/img/certificado.jpg"
         },
         {
+            "id": 3,
+            "institución": "Argentina Programa 3ra Edición",
             "titulo2": "Yo Programo",
             "inicio": "2012-02-18",
             "fin": "2021-10-30",
-            "nivel": "Yo Programo 3ra Edicion",
+            "nivel": "Yo Programo 3ra Edición",
             "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
         },
         {
+            "id": 4,
+            "institución": "Fundación Educativa Santisima Trinidad",
             "titulo3": "Python",
             "inicio": "2012-02-18",
             "fin": "2021-10-30",
-            "nivel": "Inicial",
+            "nivel": "Principiante",
             "img":"assets/img/mi certificado1.png"
         }
-        ],
-        "frase": "lorem ipsum"
+        ]
+        
 
 
 

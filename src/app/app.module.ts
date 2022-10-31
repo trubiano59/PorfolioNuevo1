@@ -1,9 +1,12 @@
+//Importar los modulos
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
-import { PorfolioService } from './servicios/porfolio.service';
+//Importar los servicios
+//import { PorfolioService } from './servicios/porfolio.service'; Si lo ponemos asi tambien funciona
 
+//Importar los componentes
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './modals/login/login.component';
@@ -76,7 +79,8 @@ import { InterestsdashboardComponent } from './interestsdashboard/interestsdashb
     HttpClientModule
 
   ],
-  providers: [PorfolioService],
+  //Agregamos el servicio al array de providers
+  providers: [],    //PorfolioService si lo ponemos asi tambien funciona
   bootstrap: [AppComponent]
 })
 export class AppModule { }
