@@ -28,8 +28,8 @@
             "id": 3,
             "institución": "Argentina Programa 3ra Edición",
             "titulo2": "Yo Programo",
-            "inicio": "2012-02-18",
-            "fin": "2021-10-30",
+            "inicio": "18-05-2022",
+            "fin": "15-01-2023",
             "nivel": "Yo Programo 3ra Edición",
             "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
         },
@@ -42,7 +42,95 @@
             "nivel": "Principiante",
             "img":"assets/img/mi certificado1.png"
         }
-        ]
+        ],
+    "experiencias": [
+        {
+            "id": 1,
+            "institución": "Argentina Programa 1ra Etapa",
+            "titulo": "Senior Web Developer",
+            "inicio": "15-11-2021",
+            "fin": "20-01-2022",
+            "nivel": "Principiante",
+            "img":"assets/img/PREPARANDO MI PORFOLIO.jpg"
+        },
+        {
+            "id": 2,
+            "titulo1": "Licenciado en Higiene y Seguridad en el Trabajo",
+            "inicio": "10-12-2015",
+            "nivel": "Capacitador en empresas",
+            "img":"assets/img/LICENCIADO.png"
+        },
+        {
+            "id": 3,
+            "institución": "Argentina Programa 3ra Edición",
+            "titulo2": "Desarrollador FullStack Estudiante de diseño web",
+            "inicio": "2022-05-18",
+            "nivel": "Estudiante"
+        }
+    ],
+    "skills": [
+
+
+
+    ],
+    "proyectos": [
+        {
+            "id": 1,
+            "institución": "",
+            "titulo": "",
+            "inicio": "",
+            "fin": "",
+            "nivel": "",
+            "img":"assets/img/diploma.jpg"
+        },
+        {
+            "id": 2,
+            "institución": "",
+            "titulo1": "",
+            "inicio": "",
+            "fin": "",
+            "nivel": "",
+            "img":"assets/img/certificado.jpg"
+        },
+        {
+            "id": 3,
+            "institución": "",
+            "titulo2": "",
+            "inicio": "",
+            "fin": "",
+            "nivel": "",
+            "img":""
+        }
+    ],
+    "works": [
+        {
+            "id": 1,
+            "institución": "",
+            "titulo": "",
+            "inicio": "15-02-2013",
+            "fin": "20-12-2015",
+            "nivel": "",
+            "img":"assets/img/diploma.jpg"
+        },
+        {
+            "id": 2,
+            "institución": "",
+            "titulo1": "",
+            "inicio": "18-02-2021",
+            "fin": "30-10-2021",
+            "nivel": "",
+            "img":"assets/img/certificado.jpg"
+        },
+        {
+            "id": 3,
+            "institución": "",
+            "titulo2": "",
+            "inicio": "2012-02-18",
+            "fin": "2021-10-30",
+            "nivel": "",
+            "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
+        }
+    ]    
         
 
 
