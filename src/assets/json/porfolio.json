@@ -1,15 +1,17 @@
 {
-    
+    "banner": "assets/img/ALPES SUIZOS.png",
+    "profileImage": "assets/img/profile.jpg",
     "nombre": "Miguel Angel",
     "apellido": "Trubiano",
+    "tituloPerfil": "Desarrollador Web Full Stack Jr",
     "acerca_de_mi": "Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end", 
     "educacion": [
         {
             "id": 1,
             "institución": "Universidad Tecnológica Nacional",
             "titulo": "Licenciado en Higiene y Seguridad Laboral",
-            "inicio": "2013-02-15",
-            "fin": "2015-12-20",
+            "inicio": "15-02-2013",
+            "fin": "20-12-2015",
             "nivel": "Universitario",
             "img":"assets/img/diploma.jpg"
         },
@@ -17,8 +19,8 @@
             "id": 2,
             "institución": "Argentina Programa 1ra Etapa",
             "titulo1": "Argentina Programa",
-            "inicio": "2021-02-18",
-            "fin": "2021-10-30",
+            "inicio": "18-02-2021",
+            "fin": "30-10-2021",
             "nivel": "Se Programar",
             "img":"assets/img/certificado.jpg"
         },
@@ -35,8 +37,8 @@
             "id": 4,
             "institución": "Fundación Educativa Santisima Trinidad",
             "titulo3": "Python",
-            "inicio": "2012-02-18",
-            "fin": "2021-10-30",
+            "inicio": "18-02-2012",
+            "fin": "30-10-2021",
             "nivel": "Principiante",
             "img":"assets/img/mi certificado1.png"
         }
