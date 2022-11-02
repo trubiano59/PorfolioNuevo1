@@ -10,8 +10,8 @@
             "id": 1,
             "institución": "Universidad Tecnológica Nacional",
             "titulo": "Licenciado en Higiene y Seguridad Laboral",
-            "inicio": "15-02-2013",
-            "fin": "20-12-2015",
+            "inicio": "2013-02-15",
+            "fin": "2015-12-20",
             "nivel": "Universitario",
             "img":"assets/img/diploma.jpg"
         },
@@ -19,8 +19,8 @@
             "id": 2,
             "institución": "Argentina Programa 1ra Etapa",
             "titulo1": "Argentina Programa",
-            "inicio": "18-02-2021",
-            "fin": "30-10-2021",
+            "inicio": "2021-02-18",
+            "fin": "2021-10-30",
             "nivel": "Se Programar",
             "img":"assets/img/certificado.jpg"
         },
@@ -28,8 +28,8 @@
             "id": 3,
             "institución": "Argentina Programa 3ra Edición",
             "titulo2": "Yo Programo",
-            "inicio": "18-05-2022",
-            "fin": "15-01-2023",
+            "inicio": "2022-05-18",
+            "fin": "2023-01-15",
             "nivel": "Yo Programo 3ra Edición",
             "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
         },
@@ -37,8 +37,8 @@
             "id": 4,
             "institución": "Fundación Educativa Santisima Trinidad",
             "titulo3": "Python",
-            "inicio": "18-02-2012",
-            "fin": "30-10-2021",
+            "inicio": "2022-02-18",
+            "fin": "2022-10-30",
             "nivel": "Principiante",
             "img":"assets/img/mi certificado1.png"
         }
@@ -48,15 +48,15 @@
             "id": 1,
             "institución": "Argentina Programa 1ra Etapa",
             "titulo": "Senior Web Developer",
-            "inicio": "15-11-2021",
-            "fin": "20-01-2022",
+            "inicio": "2021-11-15",
+            "fin": "2022-01-20",
             "nivel": "Principiante",
             "img":"assets/img/PREPARANDO MI PORFOLIO.jpg"
         },
         {
             "id": 2,
             "titulo1": "Licenciado en Higiene y Seguridad en el Trabajo",
-            "inicio": "10-12-2015",
+            "inicio": "2015-12-10",
             "nivel": "Capacitador en empresas",
             "img":"assets/img/LICENCIADO.png"
         },
