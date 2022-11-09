@@ -34,7 +34,7 @@ export class AcercademiComponent implements OnInit {
       //definir información a mostrar-porfolio es igual a datos que es el json
       this.nombre=porfolio.nombre;
       this.apellido=porfolio.apellido;
-      this.acerca_de_mi=porfolio.acerca_de_mi
+      this.acerca_de_mi=porfolio.acerca_de_mi;
    })
   }
 }

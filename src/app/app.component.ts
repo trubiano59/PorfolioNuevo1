@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PORFOLIONUEVO1';
+  //Definimos e inicializamos la propiedad
 }

@@ -69,9 +69,54 @@
         }
     ],
     "skills": [
-
-
-
+        {
+            "id": 1,
+            "habilidad": "HTML",
+            "porcentaje": "75",
+            "color": "bg-primary"
+        },
+        {
+            "id": 2,
+            "habilidad": "CSS",
+            "porcentaje": "60",
+            "color": "bg-success"
+        },
+        {
+            "id": 3,
+            "habilidad": "JAVA",
+            "porcentaje": "50",
+            "color": "bg-danger"
+        },
+        {
+            "id": 4,
+            "habilidad": "JAVASCRIPT",
+            "porcentaje": "35",
+            "color": "bg-warning"
+        },
+        {
+            "id": 5,
+            "habilidad": "BOOPSTRAP",
+            "porcentaje": "90",
+            "color": "bg-info"
+        },
+        {
+            "id": 6,
+            "habilidad": "PYTHON",
+            "porcentaje": "90",
+            "color": "bg-secondary"
+        },
+        {
+            "id": 7,
+            "habilidad": "MANEJO DE EXTINTORES",
+            "porcentaje": "90",
+            "color": "bg-terciary"
+        },
+        {
+            "id": 8,
+            "habilidad": "Carga de Datos (Data Entry)",
+            "porcentaje": "90",
+            "color": "bg-dark"
+        }
     ],
     "proyectos": [
         {
