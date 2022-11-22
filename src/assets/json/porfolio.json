@@ -7,112 +7,116 @@
     "acerca_de_mi": "Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end", 
     "educacion": [
         {
-            "id": 0,
+            "id": 1,
             "institución": "Universidad Tecnológica Nacional",
             "titulo": "Licenciado en Higiene y Seguridad Laboral",
-            "inicio": "2013-02-15",
-            "fin": "2015-12-20",
+            "inicio": "15-02-2013",
+            "fin": "20-12-2015",
             "nivel": "Universitario",
             "img":"assets/img/diploma.jpg"
         },
         {
-            "id": 1,
+            "id": 2,
             "institución": "Argentina Programa 1ra Etapa",
             "titulo1": "Argentina Programa",
-            "inicio": "2021-02-18",
-            "fin": "2021-10-30",
+            "inicio": "18-02-2021",
+            "fin": "30-10-2021",
             "nivel": "Se Programar",
             "img":"assets/img/certificado.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "institución": "Argentina Programa 3ra Edición",
             "titulo2": "Yo Programo",
-            "inicio": "2022-05-18",
-            "fin": "2023-01-15",
+            "inicio": "18-05-2022",
+            "fin": "15-01-2023",
             "nivel": "Yo Programo 3ra Edición",
             "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
         },
         {
-            "id": 3,
+            "id": 4,
             "institución": "Fundación Educativa Santisima Trinidad",
             "titulo3": "Python",
-            "inicio": "2022-02-18",
-            "fin": "2022-10-30",
+            "inicio": "18-02-2022",
+            "fin": "30-10-2022",
             "nivel": "Principiante",
             "img":"assets/img/mi certificado1.png"
         }
         ],
     "experiencias": [
         {
-            "id": 0,
+            "id": 1,
             "institución": "Argentina Programa 1ra Etapa",
             "titulo": "Senior Web Developer",
-            "inicio": "2021-11-15",
-            "fin": "2022-01-20",
+            "inicio": "15-11-2021",
+            "fin": "20-01-2022",
             "nivel": "Principiante",
             "img":"assets/img/PREPARANDO MI PORFOLIO.jpg"
         },
         {
-            "id": 1,
+            "id": 2,
+            "institución": "Universidad Tecnológica Nacional",
             "titulo1": "Licenciado en Higiene y Seguridad en el Trabajo",
-            "inicio": "2015-12-10",
+            "inicio": "10-12-2015",
+            "fin": "30-11-2020",
             "nivel": "Capacitador en empresas",
             "img":"assets/img/LICENCIADO.png"
         },
         {
-            "id": 2,
+            "id": 3,
             "institución": "Argentina Programa 3ra Edición",
             "titulo2": "Desarrollador FullStack Estudiante de diseño web",
-            "inicio": "2022-05-18",
-            "nivel": "Estudiante"
+            "inicio": "18-05-2022",
+            "fin": "15-01-2023",
+            "nivel": "Estudiante",
+            "img":"assets/img/PROGRAMACIÓN.jpg"
         }
     ],
     "skills": [
         {
-            "id": 0,
+            "id": 1,
             "habilidad": "HTML",
             "porcentaje": "75",
             "color": "bg-primary"
         },
         {
-            "id": 1,
+            "id": 2,
             "habilidad": "CSS",
             "porcentaje": "60",
             "color": "bg-success"
         },
         {
-            "id": 2,
+            "id": 3,
             "habilidad": "JAVA",
             "porcentaje": "50",
             "color": "bg-danger"
         },
         {
-            "id": 3,
+            "id": 4,
             "habilidad": "JAVASCRIPT",
             "porcentaje": "35",
             "color": "bg-warning"
         },
         {
-            "id": 4,
+            "id": 5,
             "habilidad": "BOOPSTRAP",
             "porcentaje": "90",
             "color": "bg-info"
         },
         {
-            "id": 5,
+            "id": 6,
             "habilidad": "PYTHON",
             "porcentaje": "90",
             "color": "bg-secondary"
         },
         {
-            "id": 6,
+            "id": 7,
             "habilidad": "MANEJO DE EXTINTORES",
             "porcentaje": "90",
             "color": "bg-terciary"
         },
         {
-            "id": 7,
+            "id": 8,
             "habilidad": "Carga de Datos (Data Entry)",
             "porcentaje": "90",
             "color": "bg-dark"
@@ -120,19 +124,19 @@
     ],
     "proyectos": [
         {
-            "id": 0,
+            "id": 1,
             "proyecto": "ARMADO DE PROGRAMAS DE CAPACITACIONES de Higiene y Seguridad en el trabajo ",
             "texto": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
             "enlace": "./assets/img/Seguridad-higiene-trabajo.jpg"
         },
         {
-            "id": 1,
+            "id": 2,
             "proyecto": "PROGRAMA DE CONTROL DE SEGURIDAD EN EMPRESAS",
             "texto": "sistema de gestion de seguridad",
             "enlace": "./assets/img/sistema de gestion de seguridad.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "proyecto": "PROGRAMAS DE CONTROL DE ACCIDENTES Y ENFERMEDADES PROFESIONALES ",
             "texto": "seguridad e higiene",
             "enlace": "./assets/img/accidentes y enfermedades.jpg"
@@ -140,7 +144,7 @@
     ],
     "works": [
         {
-            "id": 0,
+            "id": 1,
             "institución": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
             "titulo": "Capacitaciones de Higiene y Seguridad",
             "inicio": "2016",
@@ -149,47 +153,44 @@
             "enlace":"./assets/img/capacitar.jpg"
         },
         {
-            "id": 1,
+            "id": 2,
             "institución": "Banco de Previsión Social",
             "titulo1": "TRABAJE COMO EMPLEADO BANCARIO ",
-            "inicio": "1979-02-04",
-            "fin": "1999-11-20",
-            "texto1": " Desarrolle tareas en el Centro de Cómputos como operador y data entry",
-            "texto2": "Desarrolle tareas en el área de cuentas corrientes atención de clientes",
-            "texto3": "Desarrolle tareas en el área de Caja de Ahorro atención de jubilados",
+            "inicio": "1979",
+            "fin": "1999",
+            "texto": " Desarrolle tareas en el Centro de Cómputos, como operador y data entry, en el área de cuentas corrientes atención de cliente,tareas en el área de Caja de Ahorro atención de jubilados",
             "enlace":"assets/img/centro de computos.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "institución": "Dirección General de Escuelas Mendoza",
             "titulo2": "TRABAJE COMO EMPLEADO DIRECCION GENERAL DE ESCUELAS",
             "inicio": "2001",
             "fin": "2018",
-            "texto1": " Capacitación docentes en emprendedorismo",
-            "texto2": "Otorgamiento de bonos de puntaje a docentes de primaria"
+            "texto": " Capacitación docentes en emprendedorismo, Otorgamiento de bonos de puntaje a docentes de primaria",
+            "enlace":"assets/img/office-1246484__340.webp" 
             
         }
     ],
     "redes": [
         {
-            "id": 0,
+            "id": 1,
             "icono": "fa-facebook"
         },
         {
-            "id": 1,
+            "id": 2,
             "icono": "fa-linkedin"
         },
         {
-            "id": 2,
+            "id": 3,
             "icono": "fa-github"
         },
         {
-            "id": 3,
+            "id": 4,
             "icono": "fa-envelope"
         }
     ],
     "nombrefooter": "Miguel Angel Trubiano",
     "contactofooter": 5492616714457
  }
-
 
