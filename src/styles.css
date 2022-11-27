@@ -20,13 +20,13 @@
 
 .perfil{
     margin-top: -15rem;
-    
+    border-style: solid;
 }
 
 .perfil.w-25{
     width: 15rem !important;
+    border-style: solid;
 }
-
 .acerca{
     margin-top: 7rem !important;
 }
