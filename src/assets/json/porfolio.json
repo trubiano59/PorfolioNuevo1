@@ -8,7 +8,7 @@
     "educacion": [
         {
             "id": 1,
-            "institución": "Universidad Tecnológica Nacional",
+            "institucion": "Universidad Tecnológica Nacional",
             "titulo": "Licenciado en Higiene y Seguridad Laboral",
             "inicio": "15-02-2013",
             "fin": "20-12-2015",
@@ -17,8 +17,8 @@
         },
         {
             "id": 2,
-            "institución": "Argentina Programa 1ra Etapa",
-            "titulo1": "Argentina Programa",
+            "institucion": "Argentina Programa 1ra Etapa",
+            "titulo": "Argentina Programa",
             "inicio": "18-02-2021",
             "fin": "30-10-2021",
             "nivel": "Se Programar",
@@ -26,8 +26,8 @@
         },
         {
             "id": 3,
-            "institución": "Argentina Programa 3ra Edición",
-            "titulo2": "Yo Programo",
+            "institucion": "Argentina Programa 3ra Edición",
+            "titulo": "Yo Programo",
             "inicio": "18-05-2022",
             "fin": "15-01-2023",
             "nivel": "Yo Programo 3ra Edición",
@@ -35,8 +35,8 @@
         },
         {
             "id": 4,
-            "institución": "Fundación Educativa Santisima Trinidad",
-            "titulo3": "Python",
+            "institucion": "Fundación Educativa Santisima Trinidad",
+            "titulo": "Python",
             "inicio": "18-02-2022",
             "fin": "30-10-2022",
             "nivel": "Principiante",
@@ -46,7 +46,7 @@
     "experiencias": [
         {
             "id": 1,
-            "institución": "Argentina Programa 1ra Etapa",
+            "institucion": "Argentina Programa 1ra Etapa",
             "titulo": "Senior Web Developer",
             "inicio": "15-11-2021",
             "fin": "20-01-2022",
@@ -55,8 +55,8 @@
         },
         {
             "id": 2,
-            "institución": "Universidad Tecnológica Nacional",
-            "titulo1": "Licenciado en Higiene y Seguridad en el Trabajo",
+            "institucion": "Universidad Tecnológica Nacional",
+            "titulo": "Licenciado en Higiene y Seguridad en el Trabajo",
             "inicio": "10-12-2015",
             "fin": "30-11-2020",
             "nivel": "Capacitador en empresas",
@@ -64,8 +64,8 @@
         },
         {
             "id": 3,
-            "institución": "Argentina Programa 3ra Edición",
-            "titulo2": "Desarrollador FullStack Estudiante de diseño web",
+            "institucion": "Argentina Programa 3ra Edición",
+            "titulo": "Desarrollador FullStack Estudiante de diseño web",
             "inicio": "18-05-2022",
             "fin": "15-01-2023",
             "nivel": "Estudiante",
@@ -145,7 +145,7 @@
     "works": [
         {
             "id": 1,
-            "institución": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
+            "institucion": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
             "titulo": "Capacitaciones de Higiene y Seguridad",
             "inicio": "2016",
             "fin": "2018",
@@ -154,8 +154,8 @@
         },
         {
             "id": 2,
-            "institución": "Banco de Previsión Social",
-            "titulo1": "TRABAJE COMO EMPLEADO BANCARIO ",
+            "institucion": "Banco de Previsión Social",
+            "titulo": "TRABAJE COMO EMPLEADO BANCARIO ",
             "inicio": "1979",
             "fin": "1999",
             "texto": " Desarrolle tareas en el Centro de Cómputos, como operador y data entry, en el área de cuentas corrientes atención de cliente,tareas en el área de Caja de Ahorro atención de jubilados",
@@ -163,8 +163,8 @@
         },
         {
             "id": 3,
-            "institución": "Dirección General de Escuelas Mendoza",
-            "titulo2": "TRABAJE COMO EMPLEADO DIRECCION GENERAL DE ESCUELAS",
+            "institucion": "Dirección General de Escuelas Mendoza",
+            "titulo": "TRABAJE COMO EMPLEADO DIRECCION GENERAL DE ESCUELAS",
             "inicio": "2001",
             "fin": "2018",
             "texto": " Capacitación docentes en emprendedorismo, Otorgamiento de bonos de puntaje a docentes de primaria",
@@ -193,4 +193,3 @@
     "nombrefooter": "Miguel Angel Trubiano",
     "contactofooter": 5492616714457
  }
-
