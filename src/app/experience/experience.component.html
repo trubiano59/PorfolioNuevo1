@@ -7,7 +7,40 @@
         <h2 class="mb-5">Experiencia</h2>
         <button type="button"  data-bs-toggle="modal" data-bs-target="#experienciaModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
+          <div class="flex-grow-1" *ngFor="let experien of experience">
+            <h3 class="mb-0">{{experien.titulo}}</h3>
+            <div>
+             <h3>{{experien.institucion}}</h3>
+             <h3>{{experien.nivel}}</h3>
+             <img [src]="experien.img" width="250">
+             <div class="flex-shrink-0"><span class="text-secundary">{{experien.inicio}} - {{experien.fin}}</span></div>
+            </div>
+           </div>
+           <br>
+           <br>
+              
+       </div>
+    </div>
+    </div>
+    </section>  
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <!--<div class="flex-grow-1">
             <h3 class="mb-0">Senior Web Developer</h3>
             <p>Argentina Programa.</p>
             <p>Development of programs generated on the platform of Argentina Programa.</p>
@@ -37,10 +70,9 @@
                   </div>
                     <div class="flex-shrink-0"><span class="text-secundary">Mayo 2022 - Enero 2023</span></div>
                     </div>
-                    </div>
+                    </div>--> 
                     <!--<a class="btn btn-primary" href="/index.html" role="button">Volver</a>-->
-                    </div>
-      </section>
+                   
       
 
       <!-- FIN DE EXPERIENCIA-->

@@ -150,7 +150,7 @@
             "inicio": "2016",
             "fin": "2018",
             "texto": "CHARLAS DE 5 MINUTOS DE HyS y Manejo de distintos Matafuegos: (A - B - AB - C - D) segun tipo de Fuego",
-            "enlace":"./assets/img/capacitar.jpg"
+            "img":"./assets/img/capacitar.jpg"
         },
         {
             "id": 2,
@@ -159,7 +159,7 @@
             "inicio": "1979",
             "fin": "1999",
             "texto": " Desarrolle tareas en el Centro de Cómputos, como operador y data entry, en el área de cuentas corrientes atención de cliente,tareas en el área de Caja de Ahorro atención de jubilados",
-            "enlace":"assets/img/centro de computos.jpg"
+            "img":"assets/img/centro de computos.jpg"
         },
         {
             "id": 3,
@@ -168,7 +168,7 @@
             "inicio": "2001",
             "fin": "2018",
             "texto": " Capacitación docentes en emprendedorismo, Otorgamiento de bonos de puntaje a docentes de primaria",
-            "enlace":"assets/img/office-1246484__340.webp" 
+            "img":"assets/img/office-1246484__340.webp" 
             
         }
     ],
