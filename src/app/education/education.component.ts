@@ -21,11 +21,11 @@ export class EducationComponent implements OnInit {
       console.log(porfolio);
       //se le asigna a lista educacion la lista de registros que hay en el json que debe ser el nombre igual a como esta en el json
 
-      this.education = porfolio.education;
+      this.education = porfolio.educacion;
       console.log(porfolio);
       //informacion a mostrar
-      this.education = porfolio.education;
-      this.nombre = porfolio.nombre;
+      this.education = porfolio.educacion;
+      
 
    })    
   }
