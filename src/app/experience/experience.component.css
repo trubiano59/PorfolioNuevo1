@@ -8,3 +8,6 @@ button{
 .btn.btn-secondary{
     background-color: red;
 }
+button.btn.btnDelete{
+    background-color: crimson;
+}

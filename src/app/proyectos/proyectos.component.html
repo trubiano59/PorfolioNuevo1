@@ -2,32 +2,82 @@
   <section class="resume-section" id="proyects">
     <!-- Button trigger modal --> 
     <button type="button"  data-bs-toggle="modal" data-bs-target="#proyectosModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
-    <!--<button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
-    <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>--> 
+    <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+    <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
   
       <div class="conteProyectos container-fluid rounded shadow-sm p-3 mb-5">
         <div class="resume-section-content">
           <h2 class="mb-5">Proyectos</h2>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <li>
-                <span class="fa-li"><i class="fas fa-check"></i></span>
-                ARMADO DE PROGRAMAS DE CAPACITACIONES de Higiene y Seguridad en el trabajo en: Programa Empleo Joven y colegios de niveles secundarios y terciarios
-                <img src="assets/img/Seguridad-higiene-trabajo.jpg" width="350">
-              </li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>
-                PROGRAMAS DE CONTROL DE SEGURIDAD EN EMPRESAS
-                <img src="assets/img/sistema de gestion de seguridad.jpg" width="350">
-              </li> 
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>
-                PROGRAMAS DE CONTROL DE ACCIDENTES Y ENFERMEDADES PROFESIONALES
-                <img src="assets/img/accidentes y enfermedades.jpg" width="350">
-              </li>
+            <div class="flex-grow-1" *ngFor="let proyect of proyectos">
+        
+        <div>
+         <h3>{{proyect.proyecto}}</h3>
+         <h3>{{proyect.texto}}</h3>
+         <img [src]="proyect.img" width="250">
+         
+        </div>
+       </div>
+       <br>
+       <br>
+     </div>
+   </div>
+</div>
+</section> 
+ <!-- Modal Proyectos -->
+ <div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Proyecto</h5>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+      <div class="modal-body">
+          <form name="proyectosForm"> 
+              <!-- formulario de proyectos-->
+              <div class="mb-3">
+              <select class="form-select" id="proyectoId">
+                <option selected>Seleccionar Proyecto</option>
+                <option value="1">ID1</option>
+                <option value="2">ID2</option>
+                <option value="3">ID3</option>
+              </select>
             </div>
+            <div class="mb-3">
+              <label for="proyectoUrl" class="form-label">Modificar Url de Proyecto</label>
+              <input class="form-control" type="url" id="proyectoUrl">
             </div>
-          </div>
-          <!--<a class="btn btn-primary" href="/index.html" role="button">Volver</a>-->
-          </div>
-      </section>
-       <!-- FIN DE PROYECTOS-->
-       
+              <div class="mb-3">
+                <label for="proyectoImg" class="form-label">Modificar Logo de Proyecto</label>
+                <input class="form-control" type="file" id="proyectoImg">
+              </div>
+              <div class="mb-3">
+                <label for="proyectoNombre" class="form-label">Modificar Nombre de Proyecto</label>
+                <input type="text" class="form-control" id="proyectoNombre" placeholder="Nombre nuevo">
+              </div>
+              <div class="mb-3">
+                <label for="proyectoPeriodoInicio" class="form-label">Modificar Periodo Inicio</label>
+                <input type="date" class="form-control" id="proyectoPeriodoInicio">
+              </div>
+              <div class="mb-3">
+                <label for="proyectoPeriodoFin" class="form-label">Modificar Periodo Fin</label>
+                <input type="date" class="form-control" id="proyectoPeriodoFin">
+              </div>
+              <div class="mb-3">
+                  <label for="proyectoInfo" class="form-label">Modificar Información de Proyecto Realizado</label>
+                  <textarea class="form-control" id="proyectoInfo" rows="3"></textarea>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btnCancel" data-bs-dismiss="modal">Cancelar</button>  
+        <button type="submit" class="btn btnAgree" data-bs-dismiss="modal">Agregar</button>   
+        <button type="submit" class="btn btnMod" data-bs-dismiss="modal">Modificar</button>  
+        <button type="submit" class="btn btnDelete" data-bs-dismiss="modal">Borrar</button>   
+        <button type="submit" class="btn btnLogin" data-bs-dismiss="modal">Guardar</button>  
+      </div>
+    </div>
+  </div>
+</div>             
+   
