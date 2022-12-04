@@ -1,6 +1,7 @@
 .btn.btn-secondary{
     background-color: red;
 }
-.btn btn-line-secondary{
-    background-color: blue;
+
+.btn.btn-line-primary{
+    background-color: rgb(154, 185, 220);
 }
