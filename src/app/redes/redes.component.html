@@ -1,12 +1,11 @@
-  <ul class="list-group list-group-horizontal">
-    <li class="list-group-item"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
-    <li class="list-group-item"><a href="https://www.linkedin.com/in/miguel-trubiano-83093229/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-    <li class="list-group-item"><a href="https://github.com/trubiano59" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
-    <li class="list-group-item"><a href="https://login.live.com/" target="_blank"><i class="fa-solid fa-envelope fa-xl"></i></a></li>
-    <li class="list-group-item">
-    <!-- Button trigger modal -->
+<ul class="list-group list-group-horizontal">
+  <li class="list-group-item" *ngFor="let redes of redes"><a href={{redes.link}} target="_blank">
+    <i [ngClass]="redes.icono"></i>
+  </a></li>
+  <li class="list-group-item">
+    <!-- Button trigger modal--> 
     <!-- Boton que abre el login -->
-      <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-user-lock fa-xl">
+    <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-user-lock fa-xl">
       </i>
-    </li>
-  </ul>
+  </li>
+  </ul>  
