@@ -127,19 +127,19 @@
             "id": 1,
             "proyecto": "ARMADO DE PROGRAMAS DE CAPACITACIONES de Higiene y Seguridad en el trabajo ",
             "texto": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
-            "enlace": "./assets/img/Seguridad-higiene-trabajo.jpg"
+            "img": "./assets/img/Seguridad-higiene-trabajo.jpg"
         },
         {
             "id": 2,
             "proyecto": "PROGRAMA DE CONTROL DE SEGURIDAD EN EMPRESAS",
             "texto": "sistema de gestion de seguridad",
-            "enlace": "./assets/img/sistema de gestion de seguridad.jpg"
+            "img": "./assets/img/sistema de gestion de seguridad.jpg"
         },
         {
             "id": 3,
             "proyecto": "PROGRAMAS DE CONTROL DE ACCIDENTES Y ENFERMEDADES PROFESIONALES ",
             "texto": "seguridad e higiene",
-            "enlace": "./assets/img/accidentes y enfermedades.jpg"
+            "img": "./assets/img/accidentes y enfermedades.jpg"
         }
     ],
     "works": [
